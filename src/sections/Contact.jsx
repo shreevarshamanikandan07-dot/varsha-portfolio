@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import resume from "../assets/resume.pdf";
 
 function Contact() {
   return (
@@ -78,7 +77,7 @@ function Contact() {
 
           {/* Resume Button */}
          <a
-  href={resume}
+  href="/resume.pdf"
   download
   className="inline-block bg-sky-400 text-slate-900 px-8 py-3 rounded-full font-semibold hover:scale-105 transition duration-300 hover:shadow-sky-400/40 hover:shadow-2xl"
 >
