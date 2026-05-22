@@ -6,12 +6,9 @@ import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
 
-
 function App() {
   return (
-    
-    <div className="relative overflow-hidden">
-      
+    <div className="relative overflow-hidden bg-slate-900 text-white">
 
       {/* Background Glow */}
       <div className="absolute top-[-200px] left-[-100px] w-[500px] h-[500px] bg-sky-500 opacity-20 blur-3xl rounded-full"></div>
