@@ -2,7 +2,10 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <section className="py-32 px-6">
+   <section
+  id="about"
+  className="min-h-screen py-24 px-6 flex items-center"
+>
 
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 

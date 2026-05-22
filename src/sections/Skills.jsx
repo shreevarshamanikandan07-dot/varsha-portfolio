@@ -50,7 +50,10 @@ const skills = [
 
 function Skills() {
   return (
-    <section className="py-32 px-6">
+    <section
+  id="skills"
+  className="min-h-screen py-24 px-6 flex items-center"
+>
 
       <div className="max-w-6xl mx-auto">
 
